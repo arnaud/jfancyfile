@@ -18,7 +18,7 @@ Then create your customized menu:
 
 bc. <form>
   <input type="file" id="upload-file" name="file" />
-</form><ul id="menu" class="jright">
+</form>
 
 Finally, you may want to customize its style, by adding some custom CSS. Here is an example:
 
