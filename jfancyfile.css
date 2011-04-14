@@ -1,3 +1,13 @@
+/*!
+ * jfancyfile v0.1
+ * Take control of your file input fields & customize 'em with this jQuery plugin
+ * https://github.com/arnaud/jfancyfile
+ *
+ * Copyright 2011, Arnaud Leymet
+ * Licensed under the MIT license.
+ *
+ * Date: 2011-04-14
+ */
 .fancy-upload {
   position: relative;
   overflow: hidden;
