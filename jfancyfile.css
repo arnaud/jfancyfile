@@ -1,0 +1,29 @@
+.fancy-upload {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.fancy-upload input {
+  display: none;
+}
+.fancy-upload .fancy-upload-file {
+  display: inline-block;
+  height: 200%;
+  _float: right;
+  margin: -2px -2px -2px -160px;
+  _margin-left: -155px;
+  width: 230px;
+  border-left: 5000px solid red;
+  _border-left: 0;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* Opera only */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+  .fancy-upload .fancy-upload-file {
+    border: 0;
+    margin-left: -170px;
+    float: right;
+  }
+}

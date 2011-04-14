@@ -1,0 +1,56 @@
+h1. "jfancyfile":https://github.com/arnaud/jfancyfile - take control of your file input fields & customize 'em with this jQuery plugin
+
+jfancyfile is a jQuery plugin that enables taking control of your file input fields & customizing 'em.
+
+h2. Demo
+
+Check @demo.html@
+
+h2. Usage
+
+Add the following lines just before your @</head>@ tag:
+
+bc. <link href="jfancyfile.css" rel="stylesheet" type="text/css">
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="jquery.jfancyfile.js" type="text/javascript"></script>
+
+Then create your customized menu:
+
+bc. <form>
+  <input type="file" id="upload-file" name="file" />
+</form><ul id="menu" class="jright">
+
+Finally, you may want to customize its style, by adding some custom CSS. Here is an example:
+
+bc. <style type="text/css">
+.fancy-upload {
+  background: #f7f7f7;
+  border-radius: 9px;
+  border: 1px solid #eee;
+}
+.fancy-upload:hover {
+  background: #ddd;
+  border-color: #888;
+}
+</style>
+
+h2. Options
+
+The basic usage is this one-liner:
+
+bc. $('#file').jfancyfile();
+
+But options can be passed as arguments:
+
+h3. @width@ and @height@
+
+The dimensions can be defined in the options.
+
+bc. $('#file').jfancyfile({
+  width: 300,
+  height: 200
+});
+
+h2. License
+
+jfancyfile is open source and is licensed under the "MIT license":http://en.wikipedia.org/wiki/MIT_License.

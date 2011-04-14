@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <link href="jfancyfile.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+  /* EDIT THESE STYLES */
+  .fancy-upload {
+    background: #f7f7f7;
+    border-radius: 9px;
+    border: 1px solid #eee;
+  }
+  .fancy-upload:hover {
+    background: #ddd;
+    border-color: #888;
+  }
+  </style>
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="jquery.jfancyfile.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('#upload-file').jfancyfile({width: 300, height: 200});
+  });
+  </script>
+</head>
+<body>
+  <form>
+    <input type="file" id="upload-file" name="file" />
+  </form>
+</body>
+</html>
