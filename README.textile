@@ -1,4 +1,4 @@
-h1. "jfancyfile":https://github.com/arnaud/jfancyfile - take control of your file input fields & customize 'em with this jQuery plugin
+h1. "jfancyfile":https://github.com/arnaud/jfancyfile - take control of your file input fields & customize 'em with this jQuery plugin !http://stillmaintained.com/arnaud/jfancyfile.png!:http://stillmaintained.com/arnaud/jfancyfile
 
 jfancyfile is a jQuery plugin that enables taking control of your file input fields & customizing 'em.
 
